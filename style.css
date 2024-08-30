@@ -2,7 +2,7 @@
 
 body {
     font-family: Fredoka;
-    transition: transform 0.5 ease-in-out;
+    transition: 0.5s ease-in-;
 }
 
 button  {
@@ -10,6 +10,7 @@ button  {
     background-color: #55ff00;
     border-radius: 10px;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
 }
 
 img {

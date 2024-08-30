@@ -17,5 +17,5 @@ img {
 }
 
 button:hover {
-    size: 1.1em;
+    transform: scale(1.2);
 }

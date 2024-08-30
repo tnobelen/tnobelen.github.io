@@ -3,3 +3,13 @@
 body {
     font-family: Fredoka;
 }
+
+button  {
+    padding: 10px;
+    background-color: #55ff00;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 15px;
+}

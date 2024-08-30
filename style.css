@@ -2,6 +2,7 @@
 
 body {
     font-family: Fredoka;
+    transition: 0.5s;
 }
 
 button  {

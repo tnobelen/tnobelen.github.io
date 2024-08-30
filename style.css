@@ -1,23 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=M+PLUS+Rounded+1c:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
 body {
     font-family: Fredoka;
-    transition: 0.4s ease-in-;
+    transition: 0.5s ease-in-;
 }
 
-button {
-    padding: 20px;
-    background-color: #b8ff94;
+button  {
+    padding: 10px;
+    background-color: #adff84;
     border-radius: 10px;
     cursor: pointer;
-    transition: transform 0.1s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 img {
-    border-radius: 20px;
+    border-radius: 15px;
     max-width: 100%;
 }
 
 button:hover {
-    transform: scale(1.15);
+    transform: scale(1.2);
 }
+

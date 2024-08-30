@@ -10,15 +10,15 @@ button  {
     background-color: #b8ff94;
     border-radius: 10px;
     cursor: pointer;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.1s ease-in-out;
 }
 
 img {
-    border-radius: 15px;
+    border-radius: 20px;
     max-width: 100%;
 }
 
 button:hover {
-    transform: scale(1.2);
+    transform: scale(1.25);
 }
 

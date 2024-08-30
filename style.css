@@ -6,11 +6,11 @@ body {
 }
 
 button  {
-    padding: 10px;
-    background-color: #adff84;
-    border-radius: 10px;
+    padding: 10px; <-- hoe groot de knop is px staat voor pixel -->
+    background-color: #adff84; <-- kleur van alle knoppen -->
+    border-radius: 10px; <-- rand van de knop -->
     cursor: pointer;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out; <-- maakt de knop groter, het duurt 0,2 seconde -->
 }
 
 img {

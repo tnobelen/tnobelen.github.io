@@ -14,3 +14,7 @@ button  {
 img {
     border-radius: 15px;
 }
+
+button:hover {
+    size: 1.1em;
+}

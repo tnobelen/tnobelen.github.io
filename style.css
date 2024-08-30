@@ -5,8 +5,8 @@ body {
     transition: 0.4s ease-in-;
 }
 
-button  {
-    padding: 10px;
+button {
+    padding: 20px;
     background-color: #b8ff94;
     border-radius: 10px;
     cursor: pointer;
@@ -19,6 +19,5 @@ img {
 }
 
 button:hover {
-    transform: scale(1.25);
+    transform: scale(1.15);
 }
-

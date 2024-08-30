@@ -21,3 +21,8 @@ img {
 button:hover {
     transform: scale(1.2);
 }
+
+<style>
+body {
+    background-color: #d6ffd4;
+}

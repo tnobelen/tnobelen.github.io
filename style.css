@@ -29,5 +29,15 @@ button:hover {
     transform: scale(1.15);
 }
 
+h1 {
+    font-style: italic;
+    color: #66fcf1;
+    text-transform: capitalize;
+}
+
+p {
+    color: #ffffff;
+}
+
 
 

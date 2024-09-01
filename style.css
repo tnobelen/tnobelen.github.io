@@ -11,6 +11,11 @@ button  {
     border-radius: 10px; /* rand van de knop */
     cursor: pointer;
     transition: transform 0.2s ease-in-out; /* maakt de knop groter, het duurt 0,2 seconde */
+    font: size 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
 }
 
 img {
@@ -20,13 +25,5 @@ img {
 
 button:hover {
     transform: scale(1.25);
-}
-
-button {
-    font: size 18px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
 }
 

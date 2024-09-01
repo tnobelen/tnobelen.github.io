@@ -3,6 +3,7 @@
 body {
     font-family: Fredoka;
     transition: 0.5s ease-in-;
+    background-color: #0b0c10;
 }
 
 button  {
@@ -39,5 +40,9 @@ p {
     color: #ffffff;
 }
 
-
+h2 {
+    font-style: italic;
+    color: #66fcf1;
+    text-transform: capitalize;
+}
 

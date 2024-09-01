@@ -17,6 +17,7 @@ button  {
     text-align: center;
     font-weight: bold;
     border-color: #45A29E;
+    text-decoration-color: #c5c6c7;
 }
 
 img {
@@ -28,6 +29,5 @@ button:hover {
     transform: scale(1.15);
 }
 
-background {
-    background-color: #0b0c10;
-}
+
+

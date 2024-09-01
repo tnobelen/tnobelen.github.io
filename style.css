@@ -7,7 +7,7 @@ body {
 
 button  {
     padding: 15px; /* hoe groot de knop is px staat voor pixel */
-    background-color: #adff84; /* kleur van alle knoppen */
+    background-color: #1f2833; /* kleur van alle knoppen */
     border-radius: 10px; /* rand van de knop */
     cursor: pointer;
     transition: transform 0.2s ease-in-out; /* maakt de knop groter, het duurt 0,2 seconde */
@@ -16,6 +16,7 @@ button  {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
+    border-color: #45A29E;
 }
 
 img {
@@ -27,3 +28,6 @@ button:hover {
     transform: scale(1.15);
 }
 
+background {
+    background-color: #0b0c10;
+}

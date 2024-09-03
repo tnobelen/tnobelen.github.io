@@ -24,8 +24,6 @@ button  {
     box-shadow: 0px 0px 10px 2px #66fcf1;
 }
 
-border-color: #45A29E;
-
 img {
     border-radius: 20px; /* maakt de hoeken van de afbeeldingen rond */
     max-width: 100%; /* Zorgt ervoor dat de afbeeldingen altijd tot maximaal 1--% van de breedte van het scherm groot zijn, zo past het ook op telefoon! */

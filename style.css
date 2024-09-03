@@ -18,6 +18,8 @@ button  {
     text-align: center;
     font-weight: bold;
     color: #ffffff;
+    border: solid 0px;
+    border-color: #45A29E;
 }
 
 border-color: #45A29E;

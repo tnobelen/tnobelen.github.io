@@ -29,7 +29,7 @@ img {
 
 button:hover {
     transform: scale(1.15);
-    box-shadow: 5px 10px 5px #66fcf1;
+    box-shadow: 5px 5px 5px #66fcf1;
 }
 
 h1 {

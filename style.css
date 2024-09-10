@@ -31,19 +31,18 @@ img {
     /* maakt de hoeken van de afbeeldingen rond */
     max-width: 100%;
     /* Zorgt ervoor dat de afbeeldingen altijd tot maximaal 100% van de breedte van het scherm groot zijn, zo past het ook op telefoon! */
-    border: solid 3px #45A29E;
+    border: solid 5px #45A29E;
     transition: all 1s ease-in-out;
 }
 
 button:hover {
     transform: scale(1.15);
     box-shadow: 0px 0px 10px 5px #5c5c5c;
-    background-color: #45a29e;
+    background-color: #6be5df;
 
 }
 
 img:hover {
- box-shadow: 0px 0px 15px 16px #7d7d7d;
  border-color: #66fcf1;
  transform: scale(1.05);
 } 

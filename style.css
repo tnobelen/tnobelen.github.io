@@ -14,7 +14,7 @@ button {
     border-radius: 10px;
     /* rand van de knop */
     cursor: pointer;
-    transition: all 0,3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     /* maakt de knop groter, het duurt 0,2 seconde */
     font: size 24px;
     letter-spacing: 2px;
@@ -37,7 +37,6 @@ img {
 button:hover {
     transform: scale(1.15);
     box-shadow: 0px 0px 10px 4px #66fcf1;
-    font-style: italic;
     font-family: Fredoka;
     background-color: #45a29e;
 }

@@ -11,7 +11,7 @@ button {
     background-color: #0b0c10; /* kleur van alle knoppen */
     border-radius: 10px; /* rand van de knop */
     cursor: pointer;
-    transition: transform 0.2s ease-in-out, background-color 0,2s ease-in-out, box-shadow 0,2s ease-in-out; /* maakt de knop groter, het duurt 0,2 seconde */
+    transition: transform 0.2s ease-in-out, background-color 0,2s ease-in-out; /* maakt de knop groter, het duurt 0,2 seconde */
     font: size 24px;
     letter-spacing: 2px;
     text-transform: uppercase;

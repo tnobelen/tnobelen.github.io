@@ -6,12 +6,16 @@ body {
     background-color: #0b0c10;
 }
 
-button  {
-    padding: 15px; /* hoe groot de knop is px staat voor pixel */
-    background-color: #0b0c10; /* kleur van alle knoppen */
-    border-radius: 10px; /* rand van de knop */
+button {
+    padding: 15px;
+    /* hoe groot de knop is px staat voor pixel */
+    background-color: #0b0c10;
+    /* kleur van alle knoppen */
+    border-radius: 10px;
+    /* rand van de knop */
     cursor: pointer;
-    transition: transform 0.2s ease-in-out; /* maakt de knop groter, het duurt 0,2 seconde */
+    transition: transform 0.2s ease-in-out;
+    /* maakt de knop groter, het duurt 0,2 seconde */
     font: size 24px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -24,17 +28,19 @@ button  {
 }
 
 img {
-    border-radius: 20px; /* maakt de hoeken van de afbeeldingen rond */
-    max-width: 100%; /* Zorgt ervoor dat de afbeeldingen altijd tot maximaal 1--% van de breedte van het scherm groot zijn, zo past het ook op telefoon! */
+    border-radius: 20px;
+    /* maakt de hoeken van de afbeeldingen rond */
+    max-width: 100%;
+    /* Zorgt ervoor dat de afbeeldingen altijd tot maximaal 1--% van de breedte van het scherm groot zijn, zo past het ook op telefoon! */
     border: solid 3px #45A29E;
 }
 
 button:hover {
     transform: scale(1.15);
-   box-shadow: 0px 0px 10px 4px #66fcf1;
-   font-style: italic;
-   font-family: Fredoka;
-   background-color: #45a29e;
+    box-shadow: 0px 0px 10px 4px #66fcf1;
+    font-style: italic;
+    font-family: Fredoka;
+    background-color: #45a29e;
 }
 
 h1 {
@@ -56,5 +62,3 @@ h2 {
 li {
     color: #ffffff;
 }
-
-

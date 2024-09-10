@@ -11,6 +11,13 @@
 <body>
     <center>
         <h1>Binair Stelsel</h1>
+        <button onclick="lightMode()">Zet dagmodus aan</button>
+        <script>
+            function lightMode() {
+               var element = document.body;
+               element.classList.toggle("light-mode");
+            }
+            </script>
         <p>Sorry, deze pagina is nog niet af.</p>
         <button onclick="window.location.href='/index.html'">Terug naar de homepagina</button>
         <br>

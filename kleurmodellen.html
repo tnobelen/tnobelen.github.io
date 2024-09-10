@@ -11,6 +11,13 @@
 <body>
     <center>
         <h1>Kleurmodellen</h1>
+        <button onclick="lightMode()">Zet dagmodus aan</button>
+        <script>
+            function lightMode() {
+               var element = document.body;
+               element.classList.toggle("light-mode");
+            }
+            </script>
         <p>In je computer zijn niet alleen letters, maar ook kleuren gecodeerd. Achter de lens van je telefoon zit een
             'CDD'
             (charge-coupled device). Dit bestaat uit miljoenen lichtgevoelige fotocellen. Als je een foto maakt

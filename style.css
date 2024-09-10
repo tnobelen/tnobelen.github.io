@@ -43,9 +43,9 @@ button:hover {
 }
 
 img:hover {
- border-color: #66fcf1;
- transform: scale(1.05);
-} 
+    border-color: #66fcf1;
+    transform: scale(1.05);
+}
 
 h1 {
     font-style: italic;
@@ -72,10 +72,12 @@ body {
     animation-iteration-count: 1;
     animation-fill-mode: forward;
 }
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -83,4 +85,11 @@ body {
 
 .light-mode {
     background-color: white;
+    color: black;
+
+    button {
+        background-color: white;
+        color: black;
+    }
+
 }

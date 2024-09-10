@@ -66,3 +66,9 @@ h2 {
 li {
     color: #ffffff;
 }
+
+.H1+ {
+    font-style: italic;
+    color: #2de004;
+    text-transform: capitalize;
+}

@@ -7,11 +7,15 @@ body {
 }
 
 button {
-    padding: 15px; /* hoe groot de knop is px staat voor pixel */
-    background-color: #0b0c10; /* kleur van alle knoppen */
-    border-radius: 10px; /* rand van de knop */
+    padding: 15px;
+    /* hoe groot de knop is px staat voor pixel */
+    background-color: #0b0c10;
+    /* kleur van alle knoppen */
+    border-radius: 10px;
+    /* rand van de knop */
     cursor: pointer;
-    transition: transform 0.2s ease-in-out, background-color 0,2s ease-in-out; /* maakt de knop groter, het duurt 0,2 seconde */
+    transition: transform 0.2s ease-in-out, background-color 0, 2s ease-in-out;
+    /* maakt de knop groter, het duurt 0,2 seconde */
     font: size 24px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -35,7 +39,7 @@ button:hover {
     box-shadow: 0px 0px 10px 4px #66fcf1;
     font-style: italic;
     font-family: Fredoka;
-    background-color: #45a29e;
+    transition: background-color #45a29e;
 }
 
 h1 {

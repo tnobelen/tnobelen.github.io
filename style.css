@@ -20,7 +20,7 @@ button  {
     color: #ffffff;
     border: solid 1px;
     border-color: #45A29E;
-    transition: color #45a29e;
+    transition: background-color 1s ease-in-out
 }
 
 img {
@@ -34,7 +34,7 @@ button:hover {
    box-shadow: 0px 0px 10px 4px #66fcf1;
    font-style: italic;
    font-family: Fredoka;
-   transition-duration: color 3s;
+   background-color: #45a29e;
 }
 
 h1 {

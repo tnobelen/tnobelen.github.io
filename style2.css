@@ -81,7 +81,29 @@ body {
     }
 }
 
+
+
 .light-mode {
     background-color: white;
-}
+    p {
+        color: black;
+    }
 
+    button {
+        border-color: #389338;
+        background-color: white;
+        color: black;
+    }
+
+    button:hover {
+        background-color: #389338;
+    }
+
+    h1 {
+        color: #389338;
+    }
+
+    h2 {
+        color: #389338;
+    }
+}

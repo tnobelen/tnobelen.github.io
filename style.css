@@ -85,11 +85,17 @@ body {
 
 .light-mode {
     background-color: white;
-    color: black;
+    p {
+        color: black;
+    }
 
     button {
-        background-color: white;
+        background-colorq: white;
         color: black;
+    }
+
+    button:hover {
+        background-color: #45A29E;
     }
 
 }

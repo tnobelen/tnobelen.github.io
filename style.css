@@ -31,7 +31,7 @@ img {
     /* maakt de hoeken van de afbeeldingen rond */
     max-width: 100%;
     /* Zorgt ervoor dat de afbeeldingen altijd tot maximaal 100% van de breedte van het scherm groot zijn, zo past het ook op telefoon! */
-    border: solid 5px #45A29E;
+    border: solid 3.5px #45A29E;
     transition: all 1s ease-in-out;
 }
 

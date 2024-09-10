@@ -2,7 +2,7 @@
 
 body {
     font-family: Fredoka;
-    transition: 0.5s ease-in-;
+    transition: 0.5s ease-in-out;
     background-color: #0b0c10;
 }
 
@@ -14,7 +14,7 @@ button {
     border-radius: 10px;
     /* rand van de knop */
     cursor: pointer;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.49s ease-in-out;
     /* maakt de knop groter, het duurt 0,2 seconde */
     font: size 24px;
     letter-spacing: 2px;

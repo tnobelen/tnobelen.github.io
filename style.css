@@ -116,3 +116,11 @@ body {
     il {
         display: inline;
     }
+
+    div {
+        background-color: #005667;
+        border-radius: 10px;
+        border: solid 3px #2b9e96;
+
+    }
+}

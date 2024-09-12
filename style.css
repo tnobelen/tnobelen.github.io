@@ -85,6 +85,7 @@ body {
 
 .light-mode {
     background-color: white;
+
     p {
         color: black;
     }
@@ -105,4 +106,9 @@ body {
     h2 {
         color: #2b9e96;
     }
-}
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }

@@ -8,20 +8,29 @@
     <link rel="stylesheet" href="/style.css" </head>
 
 <body>
-    
 
-    <center> <!-- zorgt ervoor dat alle tekst en andere dingen in het midden van de pagina staan -->
-        <marquee behavior="scroll" direction="left" scrollamount="6"><h1>Goedendag! Welkom op tnobelen.github.io.</h1></marquee> <!-- titel tekst (gaat van h1 tot h6) -->
-       <button onclick="lightMode()">Zet dagmodus aan</button>
+
+    <center>
+        <ul>
+            <li><a href="kleurmodellen.html">Home</a></li>
+            <li><a href="binair.html">News</a></li>
+            <li><a href="bitmap.html">Contact</a></li>
+            <li><a href="compressie.html">About</a></li>
+        </ul>
+        <!-- zorgt ervoor dat alle tekst en andere dingen in het midden van de pagina staan -->
+        <marquee behavior="scroll" direction="left" scrollamount="6">
+            <h1>Goedendag! Welkom op tnobelen.github.io.</h1>
+        </marquee> <!-- titel tekst (gaat van h1 tot h6) -->
+        <button onclick="lightMode()">Zet dagmodus aan</button>
         <script>
             function lightMode() {
-               var element = document.body;
-               element.classList.toggle("light-mode");
+                var element = document.body;
+                element.classList.toggle("light-mode");
             }
-            </script>
+        </script>
         <p>Ik ben Tim.</p> <!-- normaal stukje tekst -->
         <p>Ik ben 15 jaar oud en mijn hobby is games spelen.
-            Ik werk bij de Albert Heijn (zie 'Werk'). Ik ben doof aan mijn linker oor. Hierdoor heb ik solo apparatuur. 
+            Ik werk bij de Albert Heijn (zie 'Werk'). Ik ben doof aan mijn linker oor. Hierdoor heb ik solo apparatuur.
         </p>
         <br>
         <br><img onclick="window.location.href='https://tnobelen.github.io/casino/'" align=left src="/School.png">
@@ -59,43 +68,52 @@
         <br>
         <h1>Onze Onderwerpen:</h1>
         <br>
-   
+
         <p>------------------------------</p>
         <h2>Kleurmodellen</h2>
-        <br><li>RGB-model</li>
-        <br><li>CMY-model</li>
         <br>
-        <button onclick="window.location.href='/kleurmodellen.html'">Meer Informatie</button>    <!-- een knop, het detecteert wanneer iemand er op klikt en het leidt de gebruiker naar de locatie -->
-       <p>------------------------------</p>
+        <li>RGB-model</li>
+        <br>
+        <li>CMY-model</li>
+        <br>
+        <button onclick="window.location.href='/kleurmodellen.html'">Meer Informatie</button>
+        <!-- een knop, het detecteert wanneer iemand er op klikt en het leidt de gebruiker naar de locatie -->
+        <p>------------------------------</p>
         <br>
         <br>
         <p>------------------------------</p>
         <h2>Binair Stelsel</h2>
-        <br><li></li>
-        <br><li></li>
-       <button onclick="window.location.href='/binair.html'">Meer Informatie</button>
-       <p>------------------------------</p>
-       <br>
-       <br>
-       
-       <p>------------------------------</p>
-       <h2>Compressie</h2>
-       <br><p>- Compressie bij afbeeldingen en video</p>
-        <br><p>- Compressie bij geluidsfragmenten</p>
+        <br>
+        <li></li>
+        <br>
+        <li></li>
+        <button onclick="window.location.href='/binair.html'">Meer Informatie</button>
+        <p>------------------------------</p>
+        <br>
+        <br>
+
+        <p>------------------------------</p>
+        <h2>Compressie</h2>
+        <br>
+        <p>- Compressie bij afbeeldingen en video</p>
+        <br>
+        <p>- Compressie bij geluidsfragmenten</p>
         <button onclick="window.location.href='/compressie.html'">Meer Informatie</button>
         <p>------------------------------</p>
         <br>
         <br>
-        
+
         <p>------------------------------</p>
         <h2>Bitmap- en vectorafbeeldingen</h2>
-        <br><p>- Bitmapafbeeldingen en vectoren</p>
-        <br><p>- Geluidsfragmenten</p>
+        <br>
+        <p>- Bitmapafbeeldingen en vectoren</p>
+        <br>
+        <p>- Geluidsfragmenten</p>
         <button onclick="window.location.href='/bitmap.html'">Meer Informatie</button>
         <p>------------------------------</p>
         <br>
         <br>
-       
+
     </center>
     <footer>v0.101</footer> <!-- voettekst (versie) want ja waarom ook niet -->
 </body>

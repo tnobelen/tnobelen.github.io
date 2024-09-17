@@ -31,7 +31,8 @@ img {
     /* maakt de hoeken van de afbeeldingen rond */
     max-width: 100%;
     /* Zorgt ervoor dat de afbeeldingen altijd tot maximaal 100% van de breedte van het scherm groot zijn, zo past het ook op telefoon! */
-    transition: all 1s ease-in-out;
+    transition: all 60s ease-in-out;
+    
 }
 
 button:hover {
@@ -42,7 +43,7 @@ button:hover {
 }
 
 img:hover {
-    transform: scale(1.05);
+    transform: scale(25);
 }
 
 h1 {

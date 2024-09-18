@@ -132,5 +132,6 @@ box-shadow: 0px 0px 10px 5px #45A29E;
 display: inline-block;
 width: 300px;
 padding: 25px;
-height: 180px;
+height: 300px;
+margin: 20px;
 }

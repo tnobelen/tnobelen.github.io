@@ -159,5 +159,5 @@ body {
     height: 320px;
     margin: 20px;
     vertical-align: middle;
-    border: dashed #16c000
+    border: dashed #16c000 2px;
 }

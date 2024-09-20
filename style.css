@@ -161,3 +161,11 @@ body {
     vertical-align: middle;
     border: dashed #16c000 2px
 }
+
+.school {
+    float: left;
+}
+
+.werk {
+    float: right;
+}

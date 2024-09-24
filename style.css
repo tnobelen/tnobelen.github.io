@@ -191,7 +191,7 @@ body {
     }
 
     50% {
-        left: 65%;
+        left: 55%;
         /* Verplaatst het naar rechts */
         color: turquoise;
     }

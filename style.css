@@ -185,17 +185,17 @@ body {
 
 @keyframes goedendag {
     0% {
-        left: 0%;
+        left: 0px;
         color: rgb(89, 139, 255);
     }
 
     50% {
-        left: 100%;
+        left: 1920px;
         color: turquoise;
     }
 
     100% {
-        left: 0%;
+        left: 0px;
         color: rgb(89, 139, 255);
     }
 }

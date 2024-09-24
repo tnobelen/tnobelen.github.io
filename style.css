@@ -147,12 +147,12 @@ body {
 }
 
 @keyframes KleurAnimation {
-0% {background-color: #006269; box-shadow: #45A29E;}
-20% {background-color: darkorchid; box-shadow: rgb(195, 75, 255);}
-40% {background-color: darkblue; box-shadow: rgb(0, 0, 255);}
-60% {background-color: rgb(182, 67, 0); box-shadow: rgb(232, 85, 0);}
-80% {background-color: turquoise; box-shadow: rgb(0, 255, 229);}
-100% {background-color: #006269; box-shadow: #45A29E;}
+0% {background-color: #006269; box-shadow:  0px 0px 10px 5px #45A29E;}
+20% {background-color: darkorchid; box-shadow:  0px 0px 10px 5px rgb(195, 75, 255);}
+40% {background-color: darkblue; box-shadow:  0px 0px 10px 5px rgb(0, 0, 255);}
+60% {background-color: rgb(182, 67, 0); box-shadow:  0px 0px 10px 5px rgb(232, 85, 0);}
+80% {background-color: turquoise; box-shadow:  0px 0px 10px 5px rgb(0, 255, 229);}
+100% {background-color: #006269; box-shadow:  0px 0px 10px 5px #45A29E;}
 }
 
 .info-pagina {

@@ -142,17 +142,17 @@ body {
     margin: 20px;
     vertical-align: middle;
     animation-name: KleurAnimation;
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 
 @keyframes KleurAnimation {
-0% {background-color: #006269;}
-20% {background-color: darkorchid;}
-40% {background-color: darkblue;}
-60% {background-color: darkred;}
-80% {background-color: turquoise;}
-100% {background-color: #006269;}
+0% {background-color: #006269; scale: (1.00);}
+20% {background-color: darkorchid; scale: (1.05);}
+40% {background-color: darkblue; scale: (1.00);}
+60% {background-color: rgb(182, 67, 0); scale: (1.05);}
+80% {background-color: turquoise; scale: 1.00;}
+100% {background-color: #006269; scale: (1.05);}
 }
 
 .info-pagina {

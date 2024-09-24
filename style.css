@@ -73,8 +73,13 @@ body {
 }
 
 @keyframes fadeInAnimation {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .light-mode {
@@ -147,12 +152,41 @@ body {
 }
 
 @keyframes KleurAnimation {
-0% {background-color: #006269; box-shadow:  0px 0px 10px 5px #45A29E;}
-20% {background-color: darkorchid; box-shadow:  0px 0px 10px 5px rgb(195, 75, 255);}
-40% {background-color: darkblue; box-shadow:  0px 0px 10px 5px rgb(0, 0, 255);}
-60% {background-color: rgb(182, 67, 0); box-shadow:  0px 0px 10px 5px rgb(232, 85, 0);}
-80% {background-color: turquoise; box-shadow:  0px 0px 10px 5px rgb(0, 255, 229);}
-100% {background-color: #006269; box-shadow:  0px 0px 10px 5px #45A29E;}
+    0% {
+        background-color: #006269;
+        box-shadow: 0px 0px 10px 5px #45A29E;
+        width: 265px;
+    }
+
+    20% {
+        background-color: darkorchid;
+        box-shadow: 0px 0px 10px 5px rgb(195, 75, 255);
+        width: 250px;
+    }
+
+    40% {
+        background-color: darkblue;
+        box-shadow: 0px 0px 10px 5px rgb(0, 0, 255);
+        width: 280px;
+    }
+
+    60% {
+        background-color: rgb(182, 67, 0);
+        box-shadow: 0px 0px 10px 5px rgb(232, 85, 0);
+        width: 270px;
+    }
+
+    80% {
+        background-color: turquoise;
+        box-shadow: 0px 0px 10px 5px rgb(0, 255, 229);
+        width: 285px;
+    }
+
+    100% {
+        background-color: #006269;
+        box-shadow: 0px 0px 10px 5px #45A29E;
+        width: 265px;
+    }
 }
 
 .info-pagina {
@@ -173,7 +207,7 @@ body {
     box-shadow: 0px 0px 10px 5px #4dc100;
     display: inline-block;
     width: 280px;
-    padding: 15px; 
+    padding: 15px;
     height: 320px;
     margin: 20px;
     vertical-align: middle;
@@ -187,4 +221,3 @@ body {
 .werk {
     float: right;
 }
-

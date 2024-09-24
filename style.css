@@ -173,3 +173,29 @@ body {
 .werk {
     float: right;
 }
+
+.Goedendag {
+    font-style: italic;
+    color: #66fcf1;
+    text-transform: capitalize;
+    animation-name: goedendag;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes goedendag {
+    0% {
+        float: left;
+        color: rgb(89, 139, 255);
+    }
+
+    50% {
+        float: right;
+        color: turquoise;
+    }
+
+    100% {
+        float: left;
+        color: rgb(89, 139, 255);
+    }
+}

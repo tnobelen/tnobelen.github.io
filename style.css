@@ -186,18 +186,18 @@ body {
 
 @keyframes goedendag {
     0% {
-        left: 0px;
-        color: rgb(89, 139, 255);
+        left: 10%;
+        color: rgb(157, 186, 255);
     }
 
     50% {
-        left: 55%;
+        left: 30%;
         /* Verplaatst het naar rechts */
         color: turquoise;
     }
 
     100% {
-        left: 0px;
-        color: rgb(89, 139, 255);
+        left: 10%;
+        color: rgb(157, 186, 255);
     }
 }

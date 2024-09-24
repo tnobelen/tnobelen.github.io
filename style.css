@@ -179,7 +179,7 @@ body {
     color: #66fcf1;
     text-transform: capitalize;
     animation-name: goedendag;
-    animation-duration: 10s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
     position: absolute;
 }
@@ -191,7 +191,7 @@ body {
     }
 
     50% {
-        left: 100%;
+        left: 65%;
         /* Verplaatst het naar rechts */
         color: turquoise;
     }

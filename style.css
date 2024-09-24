@@ -161,25 +161,25 @@ body {
     20% {
         background-color: darkorchid;
         box-shadow: 0px 0px 10px 5px rgb(195, 75, 255);
-        width: 250px;
+        width: 240px;
     }
 
     40% {
         background-color: darkblue;
         box-shadow: 0px 0px 10px 5px rgb(0, 0, 255);
-        width: 280px;
+        width: 290px;
     }
 
     60% {
         background-color: rgb(182, 67, 0);
         box-shadow: 0px 0px 10px 5px rgb(232, 85, 0);
-        width: 270px;
+        width: 265px;
     }
 
     80% {
         background-color: turquoise;
         box-shadow: 0px 0px 10px 5px rgb(0, 255, 229);
-        width: 285px;
+        width: 310px;
     }
 
     100% {

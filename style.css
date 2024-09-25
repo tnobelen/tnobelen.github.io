@@ -194,4 +194,45 @@ body {
     float: right;
 }
 
+.glow {
+    padding: 15px;
+    /* hoe groot de knop is px staat voor pixel */
+    background-color: #0b0c10;
+    /* kleur van alle knoppen */
+    border-radius: 10px;
+    /* rand van de knop */
+    cursor: pointer;
+    transition: all 0.45s ease-in-out;
+    /* maakt de knop groter, het duurt 0,2 seconde */
+    font: size 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    border: solid 1px;
+    border-color: #45A29E;
+    animation-name: glow-button;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
 
+
+
+@keyframes glow-button {
+    0% {
+        box-shadow: 0px 0px 0px 0px #e8e8e8;
+    }
+
+    25% {
+        box-shadow: 0px 0px 10px 5px #e8e8e8;
+    }
+
+    35% {
+        box-shadow: 0px 0px 0px 0px #e8e8e8;
+    }
+
+    100% {
+        box-shadow: 0px 0px 0px 0px #e8e8e8;
+    }
+}

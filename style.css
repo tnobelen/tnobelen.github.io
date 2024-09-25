@@ -176,7 +176,7 @@ body {
     }
 
     50% {
-        box-shadow: 0px 0px 10px 5px #950000;
+        box-shadow: 0px 0px 10px 10px #950000;
         border-color: #ff0000;
     }
 

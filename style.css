@@ -220,8 +220,13 @@ body {
 
 
 @keyframes glow-button {
+    
     0% {
-        box-shadow: 0px 0px 0px 0px #e8e8e8;
+        box-shadow:  0px 0px 0px 0px #e8e8e8;
+    }
+    
+    18% {
+        box-shadow: 0px 0px 1px 2px #e8e8e8;
     }
 
     25% {
@@ -229,6 +234,10 @@ body {
     }
 
     35% {
+        box-shadow: 0px 0px 1px 2px #e8e8e8;
+    }
+
+    40% {
         box-shadow: 0px 0px 0px 0px #e8e8e8;
     }
 

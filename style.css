@@ -174,30 +174,4 @@ body {
     float: right;
 }
 
-.Goedendag {
-    font-style: italic;
-    color: #66fcf1;
-    text-transform: capitalize;
-    animation-name: goedendag;
-    animation-duration: 30s;
-    animation-iteration-count: infinite;
-    position: absolute;
-}
 
-@keyframes goedendag {
-    0% {
-        left: 10%;
-        color: rgb(157, 186, 255);
-    }
-
-    50% {
-        left: 30%;
-        /* Verplaatst het naar rechts */
-        color: turquoise;
-    }
-
-    100% {
-        left: 10%;
-        color: rgb(157, 186, 255);
-    }
-}

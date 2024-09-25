@@ -163,7 +163,27 @@ body {
     height: 320px;
     margin: 20px;
     vertical-align: middle;
-    border: dashed #16c000 2px
+    border: dashed #16c000 2px;
+    animation-name: info-pagina-nu;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes info-pagina-nu {
+    0% {
+        box-shadow: 0px 0px 10px 5px #4dc100;
+        border-color: #16c000;
+    }
+
+    50% {
+        box-shadow: 0px 0px 10px 5px #950000;
+        border-color: #ff0000;
+    }
+
+    100% {
+        box-shadow: 0px 0px 10px 5px #4dc100;
+        border-color: #16c000;
+    }
 }
 
 .school {

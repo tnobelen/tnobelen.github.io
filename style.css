@@ -249,3 +249,10 @@ body {
         box-shadow: 0px 0px 0px 0px #e8e8e8;
     }
 }
+
+.schooldiv {
+    display: inline-block;
+float: left;
+border-radius: 10px;
+border: solid #45A29E;
+}

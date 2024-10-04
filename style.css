@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap'); /* font */
 
 body {
     font-family: Fredoka;
@@ -8,7 +8,6 @@ body {
 
 button {
     padding: 15px;
-    /* hoe groot de knop is px staat voor pixel */
     background-color: #0b0c10;
     /* kleur van alle knoppen */
     border-radius: 10px;
@@ -17,13 +16,13 @@ button {
     transition: all 0.45s ease-in-out;
     /* maakt de knop groter, het duurt 0,2 seconde */
     font: size 24px;
-    letter-spacing: 2px;
+    letter-spacing: 2px; /* pixels tussen de letters */
     text-transform: uppercase;
     text-align: center;
-    font-weight: bold;
+    font-weight: bold; /* maakt alles uppercase */
     color: #ffffff;
     border: solid 1px;
-    border-color: #45A29E;
+    border-color: #45A29E; /* kleur outline */
 }
 
 img {
@@ -36,20 +35,20 @@ img {
 }
 
 button:hover {
-    transform: scale(1.15);
-    box-shadow: 0px 0px 10px 5px #5c5c5c;
+    transform: scale(1.15); /* maakt de knop 1,15x grote */
+    box-shadow: 0px 0px 10px 5px #5c5c5c; /* geeft knop schaduw wanneer je erover heen gaat met je cursor */
     background-color: #45A29E;
 
 }
 
 img:hover {
-    border-color: #66fcf1;
+    border-color: #66fcf1; /* kleur van outline */
 }
 
 h1 {
-    font-style: italic;
-    color: #66fcf1;
-    text-transform: capitalize;
+    font-style: italic; /* maakt alle test schuine tekst */
+    color: #66fcf1; /* kleur van tekst */
+    text-transform: capitalize; /* maakt alle tekst automatisch hoofdletters */
 }
 
 p {
@@ -91,14 +90,14 @@ body {
     padding: 10px;
     height: 280px;
     margin: 20px;
-    vertical-align: middle;
+    vertical-align: middle; /* zorgt ervoor dat alle divs veticaal naast elkaar staan met dezelfde padding tussen elke div */
 }
 
 .card-kleur {
     background-color: #006269;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 5px #45A29E;
-    display: inline-block;
+    display: inline-block; /* tekst is in het div */
     width: 265px;
     padding: 10px;
     height: 280px;
@@ -159,18 +158,18 @@ body {
     box-shadow: 0px 0px 10px 5px #4dc100;
     display: inline-block;
     width: 280px;
-    padding: 15px;
+    padding: 15px; /* pixels tussen de divs */
     height: 320px;
-    margin: 20px;
+    margin: 20px; /* pixels tussen de rand van de div en tekst */
     vertical-align: middle;
-    border: dashed #16c000 2px;
-    animation-name: info-pagina-nu;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+    border: dashed #16c000 2px; /* outline van div */
+    animation-name: info-pagina-nu; /* naam animatie */
+    animation-duration: 4s; /* hoelang de animatie duurt */
+    animation-iteration-count: infinite; /* animatie speelt oneindig af */
 }
 
-@keyframes info-pagina-nu {
-    0% {
+@keyframes info-pagina-nu { /* maakt keyframes voor animatie */
+    0% { /* 8 hoe het eruit iet op 0% van de animatie */
         box-shadow: 0px 0px 10px 5px #4dc100;
         border-color: #16c000;
     }
@@ -187,7 +186,7 @@ body {
 }
 
 .school {
-    float: left;
+    float: left; /* zorgt ervoor dat het plaatse links is */
 }
 
 .werk {
@@ -248,4 +247,9 @@ body {
     100% {
         box-shadow: 0px 0px 0px 0px #e8e8e8;
     }
+}
+
+footer { /* footer aanpassen */
+    background-color: #006269;
+    border: solid 2px #00a9a6;
 }

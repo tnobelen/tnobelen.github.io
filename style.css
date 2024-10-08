@@ -252,6 +252,7 @@ body {
 footer { /* footer aanpassen */
     background-color: #006269;
     border: solid 2px #00a9a6;
+    border-radius: 30px;
 }
 
 .input {

@@ -165,21 +165,6 @@ body {
     transition: 0, 45s ease-in-out;
 }
 
-.info-pagina:hover {
-    width: 320px;
-    height: 360px;
-    box-shadow: 0px 0px 10px 13px #71eae4;
-    background-color: #008e98;
-}
-
-.info-pagina-nu:hover {
-    width: 260px;
-    height: 300px;
-    box-shadow: 0px 0px 10px 13px #900000;
-    background-color: #004449;
-}
-
-
 
 .info-pagina-nu {
     background-color: #006269;

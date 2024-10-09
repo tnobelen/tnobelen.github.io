@@ -193,7 +193,7 @@ body {
 .info-pagina:hover {
     transform: translateY(-10px);
     /* Verplaats de pagina omhoog */
-    background-color: #000000;
+    background-color: #0b0c10;
     box-shadow: 0px 0px 0px 0px #327874;
 }
 

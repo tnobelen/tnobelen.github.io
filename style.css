@@ -162,7 +162,7 @@ body {
     height: 320px;
     margin: 20px;
     vertical-align: middle;
-    transition: 0, 45s ease-in-out;
+    transition: 0.45s ease-in-out;
 }
 
 

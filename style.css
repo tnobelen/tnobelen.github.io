@@ -191,14 +191,16 @@ body {
 
 .info-pagina:hover {
     transform: translateY(-10px); /* Verplaats de pagina omhoog */
-    background-color: #008f99;
-    box-shadow: 0px 0px 15px 8px #45A29E
+    background-color: #00818a;
+    box-shadow: 0px 0px 0px 0px #45A29E;
+    border: solid 2px #008b8b;
 }
 
 .info-pagina-nu:hover {
     transform: translateY(-10px);
     background-color: #00464b;
-    box-shadow: 0px 0px 15px 8px #45A29E
+    box-shadow: 0px 0px 0px 0px #45A29E;
+    border: solid 2px #007272;
 }
 
 

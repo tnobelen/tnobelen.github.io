@@ -165,11 +165,7 @@ body {
     transition: 0, 45s ease-in-out;
 }
 
-.info-pagina:hover {
-    transform: scale(1,15);
-    box-shadow: 0px 0px 10px 13px #71eae4;
-    background-color: #006269;
-}
+
 
 .info-pagina-nu {
     background-color: #006269;
@@ -194,11 +190,7 @@ body {
     transition: 0, 45 ease-in-out;
 }
 
-.info-pagina-nu:hover {
-    transform: scale(0,9);
-    box-shadow: 0px 0px 10px 13px #fb3e3e;
-    background-color: #001d1f;
-}
+
 
 @keyframes info-pagina-nu {
 

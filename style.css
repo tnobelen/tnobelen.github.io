@@ -92,9 +92,9 @@ body {
 }
 
 .card-vrienden {
-    background-color: #006269;
+    background-color: #0b0b0b;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 5px #45A29E;
+    border: solid 2px #272727;
     display: inline-block;
     width: 265px;
     padding: 10px;
@@ -102,14 +102,22 @@ body {
     margin: 20px;
     vertical-align: middle;
     /* zorgt ervoor dat alle divs veticaal naast elkaar staan met dezelfde padding tussen elke div */
+    transition: 0.25s ease-in-out, background-color 0.25s ease-in-out;
+}
+
+.card-vrienden:hover {
+    transform: translateY(-10px);
+    /* Verplaats de pagina omhoog */
+    background-color: #003534;
+    border: solid 2px #009e96;
 }
 
 .card-kleur {
-    background-color: #006269;
+    background-color: #0b0b0b;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 5px #45A29E;
     display: inline-block;
     /* tekst is in het div */
+    border: solid 2px #272727;
     width: 265px;
     padding: 10px;
     height: 280px;
@@ -118,37 +126,40 @@ body {
     animation-name: KleurAnimation;
     animation-duration: 8s;
     animation-iteration-count: infinite;
+    transition: 0.25s ease-in-out, background-color 0.25s ease-in-out;
+}
+
+.card-kleur:hover {
+    transform: translateY(-10px);
+    /* Verplaats de pagina omhoog */
+    background-color: #003534;
+    border: solid 2px #009e96;
 }
 
 @keyframes KleurAnimation {
     0% {
-        background-color: #006269;
-        box-shadow: 0px 0px 10px 5px #45A29E;
+        background-color: #272727;
     }
 
     20% {
-        background-color: darkorchid;
-        box-shadow: 0px 0px 10px 5px rgb(195, 75, 255);
+        border-color: darkorchid;
+
     }
 
     40% {
-        background-color: darkblue;
-        box-shadow: 0px 0px 10px 5px rgb(0, 0, 255);
+        border-color: darkblue;
     }
 
     60% {
-        background-color: rgb(182, 67, 0);
-        box-shadow: 0px 0px 10px 5px rgb(232, 85, 0);
+        border-color: rgb(182, 67, 0);
     }
 
     80% {
-        background-color: turquoise;
-        box-shadow: 0px 0px 10px 5px rgb(0, 255, 229);
+        border-color: turquoise;
     }
 
     100% {
-        background-color: #006269;
-        box-shadow: 0px 0px 10px 5px #45A29E;
+        border-color: #272727;
     }
 }
 
@@ -162,12 +173,12 @@ body {
     margin: 20px;
     border: solid 2px #272727;
     vertical-align: middle;
-    transition: 0.25s ease-in-out, background-color 0.45s ease-in-out;
+    transition: 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
 
 .info-pagina-nu {
-    background-color: #0b0c10 ;
+    background-color: #0b0c10;
     border-radius: 20px;
     display: inline-block;
     width: 280px;
@@ -185,7 +196,7 @@ body {
     /* hoelang de animatie duurt */
     animation-iteration-count: infinite;
     /* animatie speelt oneindig af */
-    transition: transform 0.25s ease-in-out, background-color 0.45s ease-in-out;
+    transition: transform 0.25s ease-in-out, background-color 0.25s ease-in-out;
     /* Transitie voor beide eigenschappen */
 }
 

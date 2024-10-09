@@ -194,13 +194,12 @@ body {
     transform: translateY(-10px);
     /* Verplaats de pagina omhoog */
     background-color: #00818a;
-    box-shadow: 0px 0px 2px 4px #45A29E;
+    box-shadow: 0px 0px 2px 4px #327874;
 }
 
 .info-pagina-nu:hover {
     transform: translateY(-10px);
     background-color: #00464b;
-    box-shadow: 0px 0px 2px 4px #45A29E;
 }
 
 @keyframes info-pagina-nu {

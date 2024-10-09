@@ -163,6 +163,10 @@ body {
     margin: 20px;
     vertical-align: middle;
     transition: 0.45s ease-in-out, background-color 0.45s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-name: info-hover;
+    border: solid 0px #45A29E;
 }
 
 
@@ -186,11 +190,13 @@ body {
     /* hoelang de animatie duurt */
     animation-iteration-count: infinite;
     /* animatie speelt oneindig af */
-    transition: transform 0.45s ease-in-out, background-color 0.45s ease-in-out; /* Transitie voor beide eigenschappen */
+    transition: transform 0.45s ease-in-out, background-color 0.45s ease-in-out;
+    /* Transitie voor beide eigenschappen */
 }
 
 .info-pagina:hover {
-    transform: translateY(-10px); /* Verplaats de pagina omhoog */
+    transform: translateY(-10px);
+    /* Verplaats de pagina omhoog */
     background-color: #00818a;
     box-shadow: 0px 0px 0px 0px #45A29E;
 }
@@ -199,6 +205,29 @@ body {
     transform: translateY(-10px);
     background-color: #00464b;
     box-shadow: 0px 0px 0px 0px #45A29E;
+
+}
+
+@keyframes info-hover {
+    0% {
+        border: solid 2px #45A29E;
+    }
+
+    25% {
+        border: solid 2.5px #00a511;
+    }
+
+    50% {
+        border: solid 2.5px #00a511;
+    }
+
+    65% {
+        border: solid 2.5px #00a511;
+    }
+
+    100% {
+        border: solid 2px #45A29E;
+    }
 }
 
 

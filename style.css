@@ -153,9 +153,8 @@ body {
 }
 
 .info-pagina {
-    background-color: #006269;
+    background-color: #252936;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 5px #45A29E;
     display: inline-block;
     width: 280px;
     padding: 15px;
@@ -167,7 +166,7 @@ body {
 
 
 .info-pagina-nu {
-    background-color: #006269;
+    background-color: #252936;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 5px #4dc100;
     display: inline-block;
@@ -213,7 +212,7 @@ body {
     }
 
     50% {
-        box-shadow: 0px 0px 10px 10px #950000;
+        box-shadow: 0px 0px 10px 5px #950000;
         border-color: #ff0000;
     }
 

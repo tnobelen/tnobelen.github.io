@@ -160,6 +160,7 @@ body {
     padding: 15px;
     height: 335px;
     margin: 20px;
+    border: solid 2px #272727;
     vertical-align: middle;
     transition: 0.45s ease-in-out, background-color 0.45s ease-in-out;
 }

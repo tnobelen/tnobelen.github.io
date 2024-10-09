@@ -201,7 +201,7 @@ body {
     /* hoelang de animatie duurt */
     animation-iteration-count: infinite;
     /* animatie speelt oneindig af */
-    transition: 0, 45 ease-in-out;
+    transition: 0, 45s ease-in-out;
 }
 
 
